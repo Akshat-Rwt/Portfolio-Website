@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans:wght@300;400;500&family=Grandiflora+One&family=Kablammo&family=Oswald:wght@500&family=Poppins:wght@700&family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover{
+        color: rgb(153, 153, 226);
+        font-size: 1.4rem;
+    }
+
+    .container{
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-evenly;
+        margin-left: 8%;
+    }
+
+    #heading{
+        margin-bottom: 12px;
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+
+    #para{
+        width: 90%;
+        margin-bottom: 4px;
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+
+    #tool{
+        margin-top: 8px;
+    }
+
+    #link{
+        margin-top: 10px;
+    }
+
+
+    footer{
+        background: color #0e0e1a;
+        
+    }
+    
+    .footer .first{
+        font-size: 23px;
+    }
+
+    .footer  img{
+        width: 23px;
+        
+    }
+
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer > div{
+        width:223px ;
+    }
+
+    footer .footer-rights{
+        text-align: center;
+        color: grey;
+        padding: 12px 0;
+    }
